@@ -29,7 +29,6 @@ header {
 /* main */
 .container-main {
     width: 100%;
-    margin: 20px 0;
 }
 
 .riquadro-senape {
@@ -38,31 +37,32 @@ header {
 }
 .seconda-parte {
     background-color: blue;
-    height: 500px;
+    width: 100%;
 }
 
 .top-bar {
     height: 100px;
+    margin: 0;
+    padding: 10px;
     background-color: lightskyblue;
 }
 
 .sidebar,
 .central-bar {
     float: left;
-    height: 350px;
-    margin: 10px;
+    margin: ;
     padding: 10px;
     background-color: lightskyblue;
 }
 
 .sidebar {
     width: 20%;
-    margin: 0 0;
+    margin: 20px 0;
 }
 
 .central-bar {
-    width: 55%;
-    margin: 0 55px;
+    width: calc(60% - 110px) ;
+    margin: 20px 55px;
 }
 /* fine main */
 
