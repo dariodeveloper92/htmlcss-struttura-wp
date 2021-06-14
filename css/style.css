@@ -1,5 +1,5 @@
 *{
-    margin: 20px 0;
+    margin:  20px 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -35,31 +35,30 @@ header {
 }
 .seconda-parte {
     background-color: blue;
-    height: 300px;
+    height: 400px;
     
 }
 
 .top-bar {
     height: 100px;
-    background-color: gray;
+    background-color: lightskyblue;
 }
 
 .sidebar,
 .central-bar {
     float: left;
+    margin: 10px;
+    padding: 10px;
     background-color: lightskyblue;
+    
 }
 
 .sidebar {
     width: calc(100% / 5);
-    height: auto;
-    margin: 10px 0;
 }
 
 .central-bar {
     width: calc(100% / 2);
-    height: auto;
-    margin: 10px 10px;
 }
 
 footer {
@@ -67,4 +66,3 @@ footer {
     height: 50px;
     background-color: purple;
 }
-
