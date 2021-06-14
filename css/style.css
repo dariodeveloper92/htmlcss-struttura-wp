@@ -14,29 +14,31 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    font-size: medium;
 }
 /*fine common*/
 
+/* header */
 header {
     width: 100%;
     height: 100px;
     background-color: fuchsia;
 }
+/* fine header */
 
+/* main */
 .container-main {
     width: 100%;
-    height: 0 auto;
+    margin: 20px 0;
 }
 
 .riquadro-senape {
     background-color:rgb(250, 223, 135);
     height: 400px;
-    
 }
 .seconda-parte {
     background-color: blue;
-    height: 400px;
-    
+    height: 500px;
 }
 
 .top-bar {
@@ -47,22 +49,27 @@ header {
 .sidebar,
 .central-bar {
     float: left;
+    height: 350px;
     margin: 10px;
     padding: 10px;
     background-color: lightskyblue;
-    
 }
 
 .sidebar {
-    width: calc(100% / 5);
+    width: 20%;
+    margin: 0 0;
 }
 
 .central-bar {
-    width: calc(100% / 2);
+    width: 55%;
+    margin: 0 55px;
 }
+/* fine main */
 
+/* footer */
 footer {
     width: 100%;
     height: 50px;
     background-color: purple;
 }
+/* fine footer */
