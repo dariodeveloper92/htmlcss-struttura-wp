@@ -19,24 +19,41 @@
 /*fine common*/
 
 /* header */
-header {
+.menu {
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
+}
+
+.banner {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+/* fine header */
+
+/*  debug */
+.debug .container {
+    height: 700px;
+    background-color: lightgray;
+    border: 1 solid black;
+}
+
+.debug .menu {
     background-color: fuchsia;
 }
-/* fine header */
+
+.debug .banner {
+    background-color:rgb(250, 223, 135);
+}
+
+/* fine debug */
 
 /* main */
 .container-main {
     width: 100%;
 }
 
-.riquadro-senape {
-    background-color:rgb(250, 223, 135);
-    height: 400px;
-    margin-bottom: 10px;
-}
 .seconda-parte {
     background-color: blue;
     width: 100%;
@@ -62,7 +79,7 @@ header {
 }
 
 .central-bar {
-    width: calc(60% - 110px) ;
+    width: calc(60% - 110px);
     margin: 20px 55px;
 }
 /* fine main */
